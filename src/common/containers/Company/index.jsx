@@ -85,12 +85,12 @@ const PageLayout = ({ classes }) => (
     </Background>
 
     <AnchorScroll anchor="contact">
-            <Background className={classes.bgDark} skewed={true}>
-                <Section size={4} className={classes.footerMarginCompensate}>
-                    <FeedbackForm />
-                </Section>
-            </Background>
-        </AnchorScroll>
+      <Background className={classes.bgDark} skewed={true}>
+        <Section size={4} className={classes.footerMarginCompensate}>
+          <FeedbackForm />
+        </Section>
+      </Background>
+    </AnchorScroll>
   </Layout>
 );
 

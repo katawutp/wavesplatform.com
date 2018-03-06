@@ -34,6 +34,7 @@ import styles from './styles';
 
 // url
 import { fileUrl } from 'src/common/utils/url';
+import { hot } from 'react-hot-loader';
 
 const PageLayout = ({ initialState, classes }) => (
   <Layout activeLink="home">
@@ -54,6 +55,7 @@ const PageLayout = ({ initialState, classes }) => (
     <Wrapper>
       <Section top={3} bottom={2}>
         <ContentContainer>
+          rwfsvx31
           <NumbersQuote dexData={initialState.dexData} />
         </ContentContainer>
       </Section>
@@ -133,4 +135,4 @@ const App = props => (
   </ThemeProvider>
 );
 
-export default App;
+export default hot(module)(App);

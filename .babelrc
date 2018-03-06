@@ -9,6 +9,7 @@
       {
         "messagesDir": "./dist/messages/"
       }
-    ]
+    ],
+    "react-hot-loader/babel"
   ]
 }
